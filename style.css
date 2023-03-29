@@ -1,6 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .hero,.footer{
     background: #1F2937;
     padding:0 70px;
+    padding-bottom: 150px;
+    padding-right: 250px;
 }
 
 .container .menu{
@@ -25,8 +31,47 @@ h2{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
 }
 
-.content{
-    display: inline;
+p{
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+
+.section-one{
+   display: flex;
+   margin-top: 50px;
+   justify-content: space-between;
+}
+
+.sub-section-1{
+    margin-right: 150px ;
+
+}
+
+.sub-section-2{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #F9FAF8;
+
+}
+
+button{
+    background-color: #3882F6;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
 }

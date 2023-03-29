@@ -2,11 +2,24 @@ body{
     margin: 0;
     padding: 0;
 }
-.hero,.footer{
+.hero{
     background: #1F2937;
     padding:0 70px;
     padding-bottom: 150px;
     padding-right: 250px;
+}
+
+.footer{
+    background: #1F2937;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.footer .container ul{
+
 }
 
 .container .menu{
@@ -70,7 +83,7 @@ button{
     border: 0;
     border-radius: 10px;
     padding: 10px;
-    width: 100px;
+    width: 150px;
     color: #F9FAF8;
     font-weight: bold;
     font-size: 18px;
@@ -110,5 +123,39 @@ h3{
  .citation{
     width: 100%;
     height: 350px;
-    background-color: #dee2e7;
+    background-color: #d0d3d8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
  }
+
+ .citation-un{
+    font-size: 35px;
+    padding: 20px;
+    width: 100%;
+    
+ }
+
+ .author{
+    float: right;
+    margin-right: 300px;
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+ .action{
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 30px;
+
+ }
+
+ .action button{
+    border: 2px solid white;
+    width: 200px;
+
+ }
+
